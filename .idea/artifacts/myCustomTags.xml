@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="myCustomTags">
+    <output-path>$PROJECT_DIR$/out/artifacts/myCustomTags</output-path>
+    <root id="archive" name="myCustomTags.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/custom.tld" />
+      </element>
+      <element id="module-output" name="myCustomTags" />
+    </root>
+  </artifact>
+</component>
